@@ -1,0 +1,76 @@
+body {
+	background-color: #8A8A8A;
+}
+html,body {
+	height: 100%;
+}
+.AAAA {
+	position: absolute;
+	top: 100px;
+	left: 600px;
+	width: 200px;
+	height: 300px;
+}
+input[type=range][orient=vertical] {
+	appearance: slider-vertical;
+	width: 8px;
+	height: 75px;
+	padding: 0 5px;
+}
+#range {
+	transform: scale(4.3);
+	transform-origin: 0 0;
+}
+.glass {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 200px;
+	height: 350px;
+	border: solid 3px #000000;
+	border-radius: 17px;
+	z-index: 100;
+	background-color: #8A8A8A;
+}
+.glass-handle1 {
+	position: absolute;
+	top: 170px;
+	left: 180px;
+	width: 200px;
+	height: 240px;
+	border: solid 3px #000000;
+	border-radius: 40px;
+	z-index: 50;
+}
+.glass-handle2 {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 200px;
+	height: 180px;
+	border: solid 3px #000000;
+	border-radius: 40px;
+	z-index: 50;
+}
+.beer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 200px;
+	height: 0px;
+	border-bottom-left-radius: 17px;
+	border-bottom-right-radius: 17px;
+	z-index: 100;
+	background-image: url("https://tim-school.com/codepen/beer-mug/beer.gif");
+	background-size: 100% 100%;
+	overflow: hidden;
+}
+.beer-foam {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 30px;
+	z-index: 50;
+	background-color: #FFFFFF;
+}
